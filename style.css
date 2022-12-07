@@ -1,6 +1,7 @@
 body {
   display: flex;
   justify-content: center;
+  transition: 1s ease-in-out;
 }
 .btn {
   position: absolute;
