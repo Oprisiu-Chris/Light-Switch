@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  position: absolute;
+  top: 50%;
+  border: 2px solid black;
+  border-radius: 2px;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.is--on {
+  background-color: black;
+}
+.is--on .btn {
+  background-color: black;
+  border-color: white;
+  color: white;
+  box-shadow: 0rem 0rem 0rem 0.5rem yellow;
+}
